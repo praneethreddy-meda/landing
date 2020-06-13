@@ -1,0 +1,242 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-size: 100%;
+    text-align: center;
+}
+
+.banner_overlay {
+    background-color: #000000c9;
+    padding: 130px 0px;
+}
+
+.banner img {
+    width: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 48px;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.about_div {
+    padding: 80px 0px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #ff324d;
+}
+
+p {
+    line-height: 28px;
+}
+
+.about_div img {
+    border: 6px solid #ff324d;
+}
+
+.download_btn {
+    margin-top: 30px;
+}
+
+.download_btn a {
+    background: #000;
+    width: 220px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 36px;
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.download_btn a:hover {
+  text-decoration: none;
+  background: #ff324d;
+}
+
+.social_icons {
+    margin-top: 15px;
+}
+
+.social_icons ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.social_icons ul li {
+    display: inline-block;
+}
+
+.social_icons ul li a {
+    font-size: 26px;
+    margin-right: 15px;
+    color: #ff324d;
+}
+
+.edu_div {
+    padding: 80px 0px;
+    background: #fbfbfb;
+}
+
+.edu_div h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.icon_div {
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+}
+
+.detail_div {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon_div i {
+    width: 65px;
+    height: 65px;
+    line-height: 55px;
+    background: #ff324d;
+    font-size: 27px;
+    color: #fff;
+    border: 4px solid #ff324d;
+}
+
+.detail_div p {
+    margin-bottom: 6px;
+}
+
+.detail_div h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff324d;
+}
+
+.detail_div h4 {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.edu_list {
+    margin-bottom: 25px;
+}
+
+.detail_div p.date {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.edu_list:last-child {
+    margin-bottom: 0;
+}
+
+.work_div {
+    background: #fff;
+}
+
+.skill_div h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.progress {
+    border-radius: 50px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    border-radius: 50px;
+    background: #ff324d;
+}
+
+.work_div img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.work_div #pills-tab {
+  justify-content: center;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+    color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #ff324d;
+}
+
+#pills-tabContent {
+    margin-top: 30px;
+}
+
+.footer_div h3 {
+    font-weight: bold;
+    color: #ff324d;
+    margin-bottom: 15px;
+}
+
+.footer_div p i {
+    font-size: 22px;
+    width: 35px;
+    color: #ff324d;
+}
+
+.footer_div p {
+    margin-bottom: 10px;
+}
+
+.footer_div p a {
+    color: #000;
+}
+
+.footer_div input, .footer_div textarea {
+    width: 100%;
+    padding: 9px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.footer_div input:focus, .footer_div textarea:focus, .footer_div button:focus {
+    outline: none;
+}
+
+.footer_div button {
+    border: none;
+    background: #ff3252;
+    width: 170px;
+    padding: 13px 0px;
+    color: #fff;
+}
